@@ -57,6 +57,7 @@ static void ui_todo_set_selitem(struct todo *todo)
 void ui_todo_add(void)
 {
 	int ch;
+	int ch = 0;
 	const char *mesg = _("Enter the new TODO item:");
 	const char *mesg_id =
 	    _("Enter the TODO priority [0 (none), 1 (highest) - 9 (lowest)]:");
@@ -73,6 +74,10 @@ void ui_todo_add(void)
 			else if (ch == ESCAPE)
 				return;
 		} while (!isdigit(ch));
+		while ((ch < '0') || (ch > '9')) {
+			status_mesg(mesg_id, "");
+			ch = keys_wgetch(win[KEY].p);
+		}
 		struct todo *todo = todo_add(todo_input, ch - '0', 0, NULL);
 		ui_todo_load_items();
 		io_set_modified();

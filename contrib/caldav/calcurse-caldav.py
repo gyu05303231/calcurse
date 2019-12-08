@@ -442,6 +442,7 @@ def pull_objects(hrefs_missing, hrefs_modified, conn, syncdb, etagdict):
             die_atnode('Missing href.', node)
         href = hrefnode.text
 
+<<<<<<< HEAD
         statusnode = node.find("./D:status", namespaces=nsmap)
         if statusnode is not None:
             status = re.match(r'HTTP.*(\d\d\d)', statusnode.text)
@@ -452,6 +453,8 @@ def pull_objects(hrefs_missing, hrefs_modified, conn, syncdb, etagdict):
                 print('Skipping missing item: {}'.format(href))
                 continue
 
+=======
+>>>>>>> 35eaa4a7373f5eb1394f6a2f37903308af0b04c1
         etagnode = node.find("./D:propstat/D:prop/D:getetag", namespaces=nsmap)
         if etagnode is None:
             die_atnode('Missing ETag.', node)

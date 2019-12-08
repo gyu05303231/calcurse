@@ -472,6 +472,7 @@ day_store_items(time_t date, int include_captions, int n)
 			/* Insert dummy event. */
 			d.ev = &dummy;
 			dummy.mesg = conf.empty_day;
+			dummy.mesg = _("(none)");
 			day_add_item(EVNT, DUMMY, date, d);
 			day_items_nb++;
 		}
