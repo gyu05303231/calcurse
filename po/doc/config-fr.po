@@ -1,0 +1,60 @@
+# 
+# Translators:
+# SubS0, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: calcurse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-22 10:27+0200\n"
+"PO-Revision-Date: 2017-09-19 18:32+0000\n"
+"Last-Translator: SubS0\n"
+"Language-Team: French (http://www.transifex.com/lfleischer/calcurse/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Translate Toolkit 1.12.0\n"
+
+#: config.txt:1
+msgid ""
+"Config\n"
+"======"
+msgstr "Configuration\n======"
+
+#: config.txt:4
+msgid ""
+"Open the configuration submenu. From this submenu, you can select between\n"
+"color, layout, notification and general options, and you can also configure\n"
+"your key bindings."
+msgstr "Ouvrez le sous-menu \"Configurer\". Depuis ce sous-menu, vous pouvez \nsélectionner différentes entrées permettant de configurer les couleurs, \nles notifications, les options globales et les raccourcis clavier."
+
+#: config.txt:8
+msgid "The color submenu lets you choose the color theme."
+msgstr "Le sous-menu \"couleur\" vous permet de choisir le thème utilisé."
+
+#: config.txt:10
+msgid ""
+"The layout submenu lets you choose the calcurse screen layout, in other words\n"
+"where to place the three different panels on the screen."
+msgstr "Le sous-menu \"Écran\" vous permet de choisir la disposition des fenêtres,\nc'est-à-dire la manière dont les différents panneaux d'affichage sont agencés."
+
+#: config.txt:13
+msgid ""
+"The general options submenu brings a screen with the different options which\n"
+"modifies the way calcurse interacts with the user."
+msgstr "Le sous-menu \"Général\" affiche les différentes options qui définissent la manière \ndont calcurse interagit avec l'utilisateur."
+
+#: config.txt:16
+msgid "The notify submenu allows you to change the notify-bar settings."
+msgstr "Le sous-menu \"Notifier\" permet de modifier les options de la barre \nde notification."
+
+#: config.txt:18
+msgid "The keys submenu lets you define your own key bindings."
+msgstr "Le sous-menu \"Raccourcis\" permet de personnaliser les raccourcis clavier."
+
+#: config.txt:20
+msgid ""
+"Do not forget to save the calendar data to retrieve your configuration next\n"
+"time you launch calcurse."
+msgstr "N'oubliez pas de sauvegarder les entrées du calendrier pour les retrouver \nlors du prochain lancement de calcurse."

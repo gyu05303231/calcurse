@@ -1,0 +1,80 @@
+# 
+# Translators:
+# Алексей Мехоношин <ruskidecko@gmail.com>, 2016
+# Алексей Мехоношин <ruskidecko@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: calcurse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-22 10:27+0200\n"
+"PO-Revision-Date: 2017-09-19 18:32+0000\n"
+"Last-Translator: Алексей Мехоношин <ruskidecko@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/lfleischer/calcurse/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Translate Toolkit 1.12.0\n"
+
+#: repeat.txt:1
+msgid ""
+"Repeat\n"
+"======"
+msgstr "Повторение\n==========="
+
+#: repeat.txt:4
+msgid "Repeat an event or an appointment."
+msgstr "Повторение события или задачи."
+
+#: repeat.txt:6
+msgid ""
+"You must first select the item to be repeated by moving inside the appointment\n"
+"panel. Then running the repeat command will lead you to a set of three\n"
+"questions, with which you will be able to specify the repetition\n"
+"characteristics:"
+msgstr "В начале, находясь в панели задач, вам необходимо выбрать запись, которая будет повторяться.\nЗатем вызвать команду Повтор, вам будет задано несколько вопросов, которые помогут\nзадать параметры повторения:"
+
+#: repeat.txt:11
+msgid ""
+"  o        type: you can choose between a daily, weekly, monthly or\n"
+"                 yearly repetition by pressing 'D', 'W', 'M' or 'Y'\n"
+"                 respectively."
+msgstr "o тип: вы можете выбрать между Ежедневно, Еженедельно, Ежемесячно или Ежегодно\nнажатием 'D', 'W', 'M', или 'Y' соответственно."
+
+#: repeat.txt:15
+msgid ""
+"  o   frequency: this indicates how often the item shall be repeated.\n"
+"                 For example, if you want to remember an anniversary,\n"
+"                 choose a 'yearly' repetition with a frequency of '1',\n"
+"                 which means it must be repeated every year. Another\n"
+"                 example: if you go to the restaurant every two days,\n"
+"                 choose a 'daily' repetition with a frequency of '2'."
+msgstr "o частота: указывает как часто запись должна повторяться.\nНапример, если вы хотите запомнить чей-либо день рождения, выберите Ежегодно, а частоту установите в '1'.\nЭто означает, что событие будет повторяться каждый год.\nДругой пример: если вы ходите в ресторан каждый второй день, выберите Ежедневно, а частоту установите в '2'."
+
+#: repeat.txt:22
+msgid ""
+"  o ending date: this specifies when to stop repeating the selected\n"
+"                 event or appointment. To indicate an endless \n"
+"                 repetition, enter '0' and the item will be repeated\n"
+"                 forever."
+msgstr "o конечная дата: задаёт дату, последнего повторения выбранного\nсобытия или задачи. Для бесконечного повторения\nвведите '0' и запись будет повторяться всегда."
+
+#: repeat.txt:27
+msgid ""
+"Notes\n"
+"-----"
+msgstr "Примечание\n-----"
+
+#: repeat.txt:30
+msgid ""
+"* Repeated items are marked with an '*' inside the appointment panel, to be\n"
+"  easily recognizable from non-repeated ones."
+msgstr "* Записи с повторением помечены символом '*' в панели задач, чтобы\nих можно было легко отличить от неповторяющихся записей."
+
+#: repeat.txt:33
+msgid ""
+"* The 'Repeat' and 'Delete' command can be mixed to create complicated\n"
+"  configurations, as it is possible to delete only one occurrence of a repeated\n"
+"  item."
+msgstr "* Команды 'Повтор' и 'Уд.Запись' могут быть использованы совместно,\nчто позволит удалить только одну из целой цепочки повторяющихся записей."
